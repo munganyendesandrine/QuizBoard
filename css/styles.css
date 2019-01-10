@@ -1,0 +1,135 @@
+body{
+   background-color:white;
+   background-repeat: no-repeat;
+   background-size:cover;
+}
+
+h1{
+    
+    color:black;
+    font-size: 25px;
+    padding-top: 1px;
+    padding-left:30px;
+}
+
+h3,p{
+    padding-top: 20px;
+    padding-left:20px;
+    padding-right: 20px;
+}
+p{
+    justify-content: flex-end;
+}
+/*Navigation Bar*/
+/* Dropdown Button */
+.dropbtn1,.dropbtn2,.dropbtn3,.dropbtn4{
+    background-color: #0EB4FC;
+    color: white;
+    padding: 16px;
+    font-size: 25px;
+    border: none;
+    text-transform:uppercase;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown1,.dropdown2,.dropdown3,.dropdown4{
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content1,.dropdown-content2,.dropdown-content3,.dropdown-content4{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content1,.dropdown-content2 a,.dropdown-content3 a,.dropdown-content4 a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content1 a:hover,.dropdown-content2 a:hover,.dropdown-content3 a:hover,.dropdown-content4 a:hover{
+  background-color: #ddd;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown1:hover .dropbtn1,.dropdown2:hover .dropbtn2,.dropdown3:hover .dropbtn3,.dropdown4:hover .dropbtn4{
+  background-color: #0EB4FC;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown1:hover .dropdown-content1,.dropdown2:hover .dropdown-content2,.dropdown3:hover .dropdown-content3,.dropdown4:hover .dropdown-content4{
+  display: block;
+}
+.topnavbar{
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  background-color:#0EB4FC ;
+  color:black;
+  margin-bottom:20px;
+  justify-content:center;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+/*Styling classes*/
+.one{
+    
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+section{
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer{
+    background-color:#0EB4FC;
+    display:flex;
+    justify-content:space-around;
+    text-align:center;
+    padding:10px;
+    margin-bottom:2px;
+    
+  }
+.marquee { 
+    overflow: hidden;
+    position: relative;
+    animation: MarqueeLeft linear 18s infinite;
+  }
+  .two >#image {
+    display:inline-block;  
+   }
+   .two >#image>a {
+    margin-left: 60px;
+   }
+  @keyframes MarqueeLeft 
+  {
+    0% { right: -100% }
+    100% { right:100}
+  }
+ #display{
+    margin-left: 20px;
+    font-size: 60px;
+    font-family: vivaldi;
+    font: bold;
+    justify-content: center;
+ }
+ .panel-footer>p span{
+     font-size: 25px;
+     background-color:lightskyblue;
+     border-radius: 2px;
+ }
+ .begin{
+    cursor: pointer;
+  }
