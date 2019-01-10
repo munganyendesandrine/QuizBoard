@@ -15,3 +15,10 @@ https://github.com/munganyendesandrine/QuizBoard
 ### Contact information
 If you have some issues running this application,contact me at mungasandwingsd@gmail.com
 
+### Technologies used
+HTML
+CSS
+Javascript
+Bootstrap
+JQuery
+
